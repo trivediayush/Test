@@ -1,0 +1,23 @@
+Test Case ID,Test Scenario,Steps to Execute,Expected Result,Actual Result,Status (Pass/Fail)
+TC001,Landing page loads correctly,Open the homepage URL,Homepage content loads without errors,Homepage content loaded correctly,Pass
+TC002,Header contains site name,Check header for text 'Rolling Star',Rolling Star' should be visible in the header,Rolling star is visible in header,Pass
+TC003,Login and Registration button's should work properly,Click on 'Login' and 'Register' button,Redirected to 'Login Page' or 'Registration Page',"Both Button are working fine, letting user register and login with right credentials",Pass
+TC004,Navigation: Home - Header Section,Click on 'Home' link in navigation,User is redirected to homepage,Home screen redirected,Pass
+TC004.1,Navigation: Home Footer Section,Click on 'Home' link in navigation,User is redirected to home section,"Not working its not a clickable item, just a text",Fail
+TC005,Navigation: Casino - Header Section,Click on 'Casino' link in navigation in header section,User is redirected to casino section,User is redirecting to casino section,Pass
+TC005.1,Navigation: Casino - Footer Section,Click on 'Casino' link in navigation in footer section,User is redirected to casino section,"Not working its not a clickable item, just a text",Fail
+TC006,Navigation: Slots,Click on 'Slots' in navigation,Slots page opens,"Not working its not a clickable item, just a text",Fail
+TC007,Navigation: Tournament,Click on 'Tournament' in navigation,Tournament page opens,"Not working its not a clickable item, just a text",Fail
+TC008,Navigation: Jackpots,Click on 'Jackpots' in navigation,Jackpots section opens,"Not working its not a clickable item, just a text",Fail
+TC009,Navigation: Live Games,Click on 'Live Games' in navigation,Live Games section opens,"Not working its not a clickable item, just a text",Fail
+TC010,Navigation: Support,Click on 'Support' or 'Faqs',FAQ/Support section opens,"Not working its not a clickable item, just a text",Fail
+TC011,CTA Button - Get Started,Click 'Get started',User is redirected to signup or login page,"Not working, The button is  clickable item, but not carrying the link to the login page",Fail
+TC012,Background section loads,Scroll to 'Background' section,Background content is visible,Background content loaded correctly,Pass
+TC013,Casino button redirects properly,Click on 'Go to the casino' button,User lands on Casino games page,"Not working, The button is  clickable item, but not carrying the link to the login page",Fail
+TC014,Newsletter subscription input validation,Leave email blank and click 'Subscribe',Error message appears asking for valid email,Error message appeared asking for valid email,Pass
+TC015,Newsletter subscription success,Enter valid email and click 'Subscribe',Success message is shown,Succes Message is prompted,Pass
+TC016,Footer contains links,"Scroll to footer and verify presence of terms, affiliate, and bonus links",All expected links should be visible and clickable,"All expected links should be visible, but not clickable, just serving as text",Partial Pass
+TC017,Facebook link redirects,Click on Facebook icon in 'Follow Us',Facebook page opens,"Not a link just a text, not clickable",Fail
+TC018,Instagram link redirects,Click on Instagram icon,Instagram profile opens,"Not a link just a text, not clickable",Fail
+TC019,LinkedIn link redirects,Click on LinkedIn icon,LinkedIn profile opens,"Not a link just a text, not clickable",Fail
+TC020,Copyright notice visibility,Scroll to bottom of page,Copyright text should be visible,Visible,Pass
